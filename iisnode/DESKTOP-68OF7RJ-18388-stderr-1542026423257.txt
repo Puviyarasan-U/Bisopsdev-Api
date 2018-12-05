@@ -1,0 +1,10 @@
+Application has thrown an uncaught exception and is terminated:
+ConnectionError: Connection lost - read ECONNRESET
+    at ConnectionError (E:\PlayGround\Bizopsai\Bizops_API\node_modules\tedious\lib\errors.js:13:12)
+    at Connection.socketError (E:\PlayGround\Bizopsai\Bizops_API\node_modules\tedious\lib\connection.js:1012:26)
+    at Socket.socket.on.error (E:\PlayGround\Bizopsai\Bizops_API\node_modules\tedious\lib\connection.js:884:14)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
